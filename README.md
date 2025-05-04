@@ -23,15 +23,15 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 A detailed exploration of the Rust SDK, development tools, and high-performance use cases.
 - [Day 1: Using the Rust SDK | José Franco, Chris Cordle |  2024.10.01](https://www.youtube.com/watch?v=VQ70Vc1T1Ik)
 - [Day 2: Tools and Testing | José Franco | 2024.10.02](https://www.youtube.com/watch?v=LUhqM-XQnrw)
-- [Day 3: Implementing Black-Scholes | Chris Cordle | 2024.10.07](https://www.youtube.com/watch?v=LUhqM-XQnrw)
+- [Day 3: Implementing Black-Scholes | Chris Cordle | 2024.10.07](https://www.youtube.com/live/Yf6CpTAi0P4?si=GMZnc3Hwnz8RRefL)
 
 ### Stylus Showcase Series
 In-depth conversations with the founders of early Stylus projects, exploring their experiences building with Stylus.
-- [Crypto Valley Exchange | Onchain Portfolio Risk Management | 2024.10.30](https://www.youtube.com/watch?v=VjtYMhGSFlQ)  
-- [Lit Protocol | Decentralizing Digital Ownership | 2024.10.17](https://www.youtube.com/watch?v=hEhGNAG2Ur8)  
-- [Fairblock | Dynamic Confidentiality Network | 2024.10.09](https://www.youtube.com/watch?v=pFGGnA9SyyY)  
-- [OpenZeppelin | Building Stylus Tools and Contracts | 2024.09.19](https://www.youtube.com/watch?v=tmGWL9mV7C)  
-- [Superposition | Native Liquidity on Arbitrum | 2024.09.12](https://www.youtube.com/watch?v=cS7XukVufSc)  
+- [Crypto Valley Exchange | Onchain Portfolio Risk Management | 2024.10.30](https://www.youtube.com/watch?v=VjtYMhGSFlQ)
+- [Lit Protocol | Decentralizing Digital Ownership | 2024.10.17](https://www.youtube.com/watch?v=hEhGNAG2Ur8)
+- [Fairblock | Dynamic Confidentiality Network | 2024.10.09](https://www.youtube.com/watch?v=pFGGnA9SyyY)
+- [OpenZeppelin | Building Stylus Tools and Contracts | 2024.09.19](https://www.youtube.com/watch?v=tmGWL9mV7C)
+- [Superposition | Native Liquidity on Arbitrum | 2024.09.12](https://www.youtube.com/watch?v=cS7XukVufSc)
 - [Renegade | Building Onchain Dark Pools | 2024.09.04](https://www.youtube.com/watch?v=fYGxIEKCMgA)
 
 ### Talks & Presentations
@@ -58,6 +58,8 @@ In-depth conversations with the founders of early Stylus projects, exploring the
 - [Zig Stylus](https://github.com/Stylish-Stylus/zig-stylus) - Zig SDK for Stylus smart contracts
 - [stylus-toolkit](https://github.com/LimeChain/stylus-toolkit) - A toolkit of Stylus primitives and examples of their usage
 - [Stylus Suite](https://github.com/tolgayayci/stylus-vscode-extension) - Manage your Stylus projects with this Vs Code extension. Call cargo stylus methods with simple user interface, use pre defined snippets, chat with Stylus GPT and many more
+- [Walnut Usertrace](https://github.com/walnuthq/cargo-stylus-walnut) - Visual tracer for transactions via Stylus.
+- [The Wizard](https://thewizard.app) - Fully online editor, builder, and deployer for Stylus.
 
 ## Libraries
 - [Unit Testing | Open Zepplin](https://github.com/OpenZeppelin/rust-contracts-stylus/blob/main/lib/motsu/README.md) - A Rust testing library that provides utilities and helpers for unit testing your smart contracts.
@@ -69,7 +71,10 @@ In-depth conversations with the founders of early Stylus projects, exploring the
 
 ## Projects
 - [Renegade](https://renegade.fi/) ([docs](https://docs.renegade.fi/) / [repo](https://github.com/renegade-fi/renegade) / [case study](https://blog.arbitrum.io/renegade-stylus-case-study/)) - On-chain dark pool utilizing ZK-proofs for privacy preserving transactions.
-- [Superposition - LongTail](https://superposition.so/) ([docs](https://docs.superposition.so/native-dapps/longtail-amm) / [repo](https://github.com/fluidity-money/long.so) / [case study](https://blog.arbitrum.io/how-superposition-is-transforming-onchain-rewards-with-stylus/)) - Rewards based AMM built with Stylus on a L3 Orbit Chain (Superposition).
+- [Superposition - Longtail](https://superposition.so/) ([docs](https://docs.long.so) / [repo](https://github.com/fluidity-money/long.so) / [case study](https://blog.arbitrum.io/how-superposition-is-transforming-onchain-rewards-with-stylus/)) - Rewards based AMM built with Stylus on a L3 Orbit Chain (Superposition).
+- [Superposition - 9lives](https://9lives.so/) ([docs](https://docs.9lives.so) / [repo](https://github.com/fluidity-money/9lives.so)) - Advanced Prediction Market (Superposition).
+- [Bayge](https://x.com/baygeeth) - Vending Machine - [repo](https://github.com/af-afk/vendingmachine.com) - Chainlink VRF and VDF vending machine.
+- [0xjsi](https://x.com/0xjsieth) - Microstable Stablecoin - [repo](https://github.com/jacksmithinsulander/microstable-stylus/) - Microstable Stablecoin with Stylus.
 
 ## Examples
 - [Ed25519 signature recovery benchmark | LimeChain ](https://github.com/LimeChain/stylus-benchmark)
@@ -118,7 +123,7 @@ To make the code compatible with the latest version, you might need to update th
   - [Rustmate ERC20](https://github.com/cairoeth/rustmate/blob/main/src/tokens/erc20.rs) - An ERC20 + EIP-2612 implementation equivalent to Solmate
 - ERC721 Examples
   - [https://github.com/cygaar/ERC721Stylus/ (Rust)](https://github.com/cygaar/ERC721Stylus/)
-  - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721) 
+  - [https://github.com/0xcacti/stylus_erc721 (Rust)](https://github.com/0xcacti/stylus_erc721)
   - [https://github.com/gvladika/stylus-erc721 (Rust)](https://github.com/gvladika/stylus-erc721/tree/main)
 - [Uniswap V2 In Wasm](https://github.com/evmcheb/univ2-wasm) - A Uniswap v2 proof of concept implementation
 - [RKFall NFT](https://github.com/yahgwai/rkfall-nft/) - A Rust based project that uses gravitational field computation for generating NFTs
