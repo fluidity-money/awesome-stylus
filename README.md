@@ -17,6 +17,7 @@ A curated list of Arbitrum Stylus code examples, libraries, projects and resourc
 - [How To Add a New Programming Language To Stylus](https://docs.arbitrum.io/stylus/how-tos/adding-support-for-new-languages)
 - [How To Run a Local Dev Node With Stylus Support](https://docs.arbitrum.io/stylus/how-tos/local-stylus-dev-node)
 - [Stylus Rust SDK: Feature Overview](https://docs.arbitrum.io/stylus/reference/rust-sdk-guide)
+- [Stylus Saturdays: Ongoing developer newsletter](https://stylus-saturdays.com)
 
 ## Videos
 ### Stylus Pro Series
